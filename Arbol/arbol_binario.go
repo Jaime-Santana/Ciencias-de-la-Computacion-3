@@ -106,7 +106,7 @@ func llenarArbol() *Arbol{
 
 func main() {
 	
-  fmt.Println("Ingrese la cadena en preorden, los opradores y operandos debe ir separados por un espacio")
+  fmt.Println("Ingrese la cadena en postfijo, los opradores y operandos debe ir separados por un espacio")
 
   ordenarEntrada("1 2 + 3 4 - *")
   arbol :=llenarArbol()
