@@ -103,7 +103,6 @@ func llenarArbol() *Arbol{
 }
 
 
-
 func main() {
 	
   fmt.Println("Ingrese la cadena en postfijo, los opradores y operandos debe ir separados por un espacio")
