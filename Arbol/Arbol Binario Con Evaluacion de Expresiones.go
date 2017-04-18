@@ -159,5 +159,6 @@ func main() {
   	//fmt.Println("")
   	asignar_variable(arbol)
   	fmt.Println(Lista_var)
+	fmt.Println(obtenerRespuesta(arbol))
   }
 }
