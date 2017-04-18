@@ -70,7 +70,7 @@ func ordenarEntrada(cadena1 string) bool{
 	var char string
 	numeros, _ := regexp.Compile("^[0-9]+$")
     letras, _ := regexp.Compile("^[a-zA-Z]+$")
-    simbolos, _ := regexp.Compile("^[+-/*:]+$")+
+    simbolos, _ := regexp.Compile("^[+-/*:]+$")
 	puntos, _ := regexp.Compile("^:=$")
 	cadena:=strings.Fields(cadena1)
 	for x :=0; x<len(cadena); x++{
@@ -155,5 +155,6 @@ func main() {
   	//fmt.Println("")
   	asignar_variable(arbol)
   	fmt.Println(Lista_var)
+	fmt.Println(obtenerRespuesta(arbol))
   }
 }
